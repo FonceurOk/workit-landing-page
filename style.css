@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    color: white;
+}
+
+.box {
+    background-color: #24053E;
+    height: 800px;
+}
+
+.box img{
+    width: auto;
+    height: auto;
+}
+
+.nav {
+    padding: 100px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    margin-top: -1200px;
+    width: 100%;
+    height: 100%;
+}
