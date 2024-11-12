@@ -8,21 +8,27 @@ body {
 }
 
 main {
-    align-items: center;
+    /* align-items: center;
     justify-content: center;
-    display: flex;
+    display: flex; */
     background-color: #24053E;
-    border-radius: 100% 100% / 20% 20%;
-    height: 700px;
-    margin-top: -80px;
+    /* border-radius: 100% 100% / 20% 20%; */
+    /* height: 700px; */
+    /* margin-top: -80px; */
     padding-top: 80px;
     
 }
 
 .box {
     width: 80%;
-    align-items: center;
-    justify-content: center;
+    height: 7cm;
+    /* align-items: center;
+    justify-content: center; */
+    background-color: #24053E;
+    padding-top: 32px;
+    padding-bottom: 260px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .box img {
@@ -32,36 +38,40 @@ main {
 }
 
 .nav {
+    /* width: 80%; */
+    /* margin-left: 10%; */
     width: 80%;
-    margin-left: 10%;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
-    align-items: center;
-    padding-top: 90px;
+    justify-content: space-between;
 }
 
-.nav h1{
+.nav a {
     margin-left: auto;
     font-family: "Manrope", sans-serif;
 }
 
 .container {
     font-family: "Fraunces", serif;
-    width: 80%;
-    margin-left: 10%;
-    justify-content: center;
-    align-items: center;
-    padding-top: 70px;
+    text-align: center;
+    line-height: 1.15;
+
 }
 
 .button {
-    margin-left: 200px;
+    width: 767px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: -220px;
 }
 
 .phone {
-    display: flex;
-    justify-content: center;
-    padding-top: 140px;
-    align-items: center;
     min-width: 600px;
     min-height: 440px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: -220px;
 }
