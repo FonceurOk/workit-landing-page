@@ -3,20 +3,26 @@
 }
 
 body {
+    color: #ffffff;
+    
+}
+
+main {
     align-items: center;
     justify-content: center;
     display: flex;
     background-color: #24053E;
-    height: 800px;
-}
-
-main {
-    color: white;
-    width: 100%;
+    border-radius: 100% 100% / 20% 20%;
+    height: 700px;
+    margin-top: -80px;
+    padding-top: 80px;
+    
 }
 
 .box {
-    height: 800px;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
 }
 
 .box img {
@@ -30,7 +36,7 @@ main {
     margin-left: 10%;
     display: flex;
     align-items: center;
-    padding-top: 70px;
+    padding-top: 90px;
 }
 
 .nav h1{
@@ -40,11 +46,11 @@ main {
 
 .container {
     font-family: "Fraunces", serif;
+    width: 80%;
+    margin-left: 10%;
     justify-content: center;
     align-items: center;
-    display: block;
-    padding: 10px;
-    margin-left: 500px;
+    padding-top: 70px;
 }
 
 .button {
@@ -58,13 +64,4 @@ main {
     align-items: center;
     min-width: 600px;
     min-height: 440px;
-}
-
-.white {
-    width: 100%;
-    height: 120px;
-}
-
-.box2 {
-    background-color: #ffffff;
 }
